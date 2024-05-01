@@ -17,6 +17,9 @@ import {
   notification2,
   notification3,
   notification4,
+  notification5,
+  notification6,
+  notification7,
   notion,
   photoshop,
   plusSquare,
@@ -34,6 +37,8 @@ import {
   telegram,
   twitter,
   yourlogo,
+  sherpalogo,
+  globaledgelogo,
 } from "../assets";
 
 export const navigation = [
@@ -78,9 +83,22 @@ export const navigation = [
 
 export const heroIcons = [homeSmile, file02, searchMd, plusSquare];
 
-export const notificationImages = [notification4, notification3, notification2];
+export const notificationImages = [
+  notification7,
+  notification6,
+  notification5,
+  notification4,
+  notification3,
+  notification2,
+];
 
-export const companyLogos = [yourlogo, yourlogo, yourlogo, yourlogo, yourlogo];
+export const companyLogos = [
+  sherpalogo,
+  globaledgelogo,
+  yourlogo,
+  yourlogo,
+  yourlogo,
+];
 
 export const brainwaveServices = [
   "Photo generating",

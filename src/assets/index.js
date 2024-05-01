@@ -9,6 +9,8 @@ import grid from "./grid.png";
 import check2 from "./check-02.svg";
 import loading1 from "./loading-01.svg";
 import yourlogo from "./yourlogo.svg";
+import sherpalogo from "./sherpalogo.png";
+import globaledgelogo from "./globaledgelogo.webp";
 import homeSmile from "./home-smile.svg";
 import file02 from "./file-02.svg";
 import searchMd from "./search-md.svg";
@@ -52,10 +54,13 @@ import roadmap3 from "./roadmap/image-3.png";
 import roadmap4 from "./roadmap/image-4.png";
 import undone from "./roadmap/undone.svg";
 
-import notification1 from "./notification/image-1.png";
+import notification1 from "./notification/image-1.jpeg";
 import notification2 from "./notification/image-2.png";
 import notification3 from "./notification/image-3.png";
 import notification4 from "./notification/image-4.png";
+import notification5 from "./notification/image-5.jpeg";
+import notification6 from "./notification/image-6.jpeg";
+import notification7 from "./notification/image-7.jpg";
 
 import benefitCard1 from "./benefits/card-1.svg";
 import benefitCard2 from "./benefits/card-2.svg";
@@ -87,6 +92,8 @@ export {
   smallSphere,
   grid,
   yourlogo,
+  sherpalogo,
+  globaledgelogo,
   homeSmile,
   file02,
   searchMd,
@@ -128,6 +135,9 @@ export {
   notification2,
   notification3,
   notification4,
+  notification5,
+  notification6,
+  notification7,
   benefitCard1,
   benefitCard2,
   benefitCard3,
