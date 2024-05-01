@@ -8,9 +8,11 @@ import smallSphere from "./4-small.png";
 import grid from "./grid.png";
 import check2 from "./check-02.svg";
 import loading1 from "./loading-01.svg";
-import yourlogo from "./yourlogo.svg";
+import facebooklogo from "./facebooklogo.png";
 import sherpalogo from "./sherpalogo.png";
 import globaledgelogo from "./globaledgelogo.webp";
+import googlelogo from "./googlelogo.png";
+import accenturelogo from "./accenturelogo.png";
 import homeSmile from "./home-smile.svg";
 import file02 from "./file-02.svg";
 import searchMd from "./search-md.svg";
@@ -91,9 +93,11 @@ export {
   gradient,
   smallSphere,
   grid,
-  yourlogo,
   sherpalogo,
   globaledgelogo,
+  googlelogo,
+  accenturelogo,
+  facebooklogo,
   homeSmile,
   file02,
   searchMd,

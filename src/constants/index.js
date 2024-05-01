@@ -36,9 +36,11 @@ import {
   sliders04,
   telegram,
   twitter,
-  yourlogo,
+  facebooklogo,
   sherpalogo,
   globaledgelogo,
+  googlelogo,
+  accenturelogo,
 } from "../assets";
 
 export const navigation = [
@@ -95,9 +97,9 @@ export const notificationImages = [
 export const companyLogos = [
   sherpalogo,
   globaledgelogo,
-  yourlogo,
-  yourlogo,
-  yourlogo,
+  googlelogo,
+  accenturelogo,
+  facebooklogo,
 ];
 
 export const BanyanServices = [
