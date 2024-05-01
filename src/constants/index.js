@@ -100,13 +100,13 @@ export const companyLogos = [
   yourlogo,
 ];
 
-export const brainwaveServices = [
+export const BanyanServices = [
   "Photo generating",
   "Photo enhance",
   "Seamless Integration",
 ];
 
-export const brainwaveServicesIcons = [
+export const BanyanServicesIcons = [
   recording03,
   recording01,
   disc02,
