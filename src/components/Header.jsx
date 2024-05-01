@@ -11,9 +11,13 @@ import { useState } from "react";
 const Header = () => {
   // this gives us the access to the current url
   const pathname = useLocation();
+  //   see if we have navigation opened or not
   const [openNavigation, setOpenNavigation] = useState(false);
 
+  //   function that checks if the navigation is open or not
   const toggleNavigation = () => {
+    // if the nav is open, then don't allow page scroll
+    // otherwise allow it
     if (openNavigation) {
       setOpenNavigation(false);
       enablePageScroll();
@@ -23,6 +27,7 @@ const Header = () => {
     }
   };
 
+  //   function that scroll the page on click
   const handleClick = () => {
     if (!openNavigation) return;
 
@@ -52,7 +57,7 @@ const Header = () => {
                 key={item.id}
                 href={item.url}
                 onClick={handleClick}
-                className={`block relative font-code text-2xl uppercase text-n-1 transition-colors hover:text-color-1 ${
+                className={`block relative font-code text-2xl uppercase font-bold text-n-1 transition-colors hover:text-color-1 ${
                   item.onlyMobile ? "lg:hidden" : ""
                 } px-6 py-6 md:py-8 lg:-mr-0.25 lg:text-xs lg:font-semibold ${
                   item.url === pathname.hash
@@ -68,14 +73,14 @@ const Header = () => {
           <HamburgerMenu />
         </nav>
 
-        <a
+        {/* <a
           href="#signup"
           className="button hidden mr-8 text-n-1/50 transition-colors hover:text-n-1 lg:block"
         >
           New account
-        </a>
-        <Button className="hidden lg:flex" href="#login">
-          Sign in
+        </a> */}
+        <Button className="hidden lg:flex" href="#getStarted">
+          Get Started
         </Button>
 
         <Button
