@@ -39,7 +39,7 @@ const Hero = () => {
             Unleash your business' potential with the power of AI marketing.
             Expand your market with Banyan AI, the AI marketing agency.
           </p>
-          <Button href="/pricing" white>
+          <Button href="#pricing" white>
             Get started
           </Button>
         </div>

@@ -16,8 +16,8 @@ const Benefits = () => {
     <Section id="how-to-use">
       <div className="container">
         <Heading
-          title="Generative AI made for creators."
-          text="Banyan unlocks the potential of AI-powered applications"
+          title="AI Marketing Firm Made For Marketers."
+          text="Banyan AI unlocks the potential of AI-powered marketing"
         />
 
         <div className="relative">
