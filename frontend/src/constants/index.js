@@ -47,7 +47,7 @@ export const navigation = [
   {
     id: "0",
     title: "Services",
-    url: "#features",
+    url: "/services",
   },
   {
     id: "1",
@@ -56,8 +56,8 @@ export const navigation = [
   },
   {
     id: "2",
-    title: "How to use",
-    url: "#how-to-use",
+    title: "About Us",
+    url: "/about",
   },
   {
     id: "3",
@@ -103,9 +103,10 @@ export const companyLogos = [
 ];
 
 export const BanyanServices = [
-  "Photo generating",
-  "Photo enhance",
-  "Seamless Integration",
+  "Brand & Content Creation",
+  "Onsite & Offsite SEO",
+  "Newsletter Genernation",
+  "Customer Outreach",
 ];
 
 export const BanyanServicesIcons = [
