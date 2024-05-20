@@ -40,9 +40,9 @@ import protopie from "./collaboration/protopie.png";
 import raindrop from "./collaboration/raindrop.png";
 import slack from "./collaboration/slack.png";
 
-import service1 from "./services/service-1.png";
-import service2 from "./services/service-2.png";
-import service3 from "./services/service-3.png";
+import benefit1 from "./benefits/benefit-1.png";
+import benefit2 from "./benefits/benefit-2.png";
+import benefit3 from "./benefits/benefit-3.png";
 
 import lines from "./pricing/lines.svg";
 import stars from "./pricing/stars.svg";
@@ -64,17 +64,17 @@ import notification5 from "./notification/image-5.jpeg";
 import notification6 from "./notification/image-6.jpeg";
 import notification7 from "./notification/image-7.jpg";
 
-import benefitCard1 from "./benefits/card-1.svg";
-import benefitCard2 from "./benefits/card-2.svg";
-import benefitCard3 from "./benefits/card-3.svg";
-import benefitCard4 from "./benefits/card-4.svg";
-import benefitCard5 from "./benefits/card-5.svg";
-import benefitCard6 from "./benefits/card-6.svg";
-import benefitIcon1 from "./benefits/icon-1.svg";
-import benefitIcon2 from "./benefits/icon-2.svg";
-import benefitIcon3 from "./benefits/icon-3.svg";
-import benefitIcon4 from "./benefits/icon-4.svg";
-import benefitImage2 from "./benefits/image-2.png";
+import serviceCard1 from "./services/card-1.svg";
+import serviceCard2 from "./services/card-2.svg";
+import serviceCard3 from "./services/card-3.svg";
+import serviceCard4 from "./services/card-4.svg";
+import serviceCard5 from "./services/card-5.svg";
+import serviceCard6 from "./services/card-6.svg";
+import serviceIcon1 from "./services/icon-1.svg";
+import serviceIcon2 from "./services/icon-2.svg";
+import serviceIcon3 from "./services/icon-3.svg";
+import serviceIcon4 from "./services/icon-4.svg";
+import serviceImage2 from "./services/image-2.png";
 
 import discordBlack from "./socials/discord.svg";
 import facebook from "./socials/facebook.svg";
@@ -122,9 +122,9 @@ export {
   protopie,
   raindrop,
   slack,
-  service1,
-  service2,
-  service3,
+  benefit1,
+  benefit2,
+  benefit3,
   lines,
   stars,
   coins,
@@ -142,17 +142,17 @@ export {
   notification5,
   notification6,
   notification7,
-  benefitCard1,
-  benefitCard2,
-  benefitCard3,
-  benefitCard4,
-  benefitCard5,
-  benefitCard6,
-  benefitIcon1,
-  benefitIcon2,
-  benefitIcon3,
-  benefitIcon4,
-  benefitImage2,
+  serviceCard1,
+  serviceCard2,
+  serviceCard3,
+  serviceCard4,
+  serviceCard5,
+  serviceCard6,
+  serviceIcon1,
+  serviceIcon2,
+  serviceIcon3,
+  serviceIcon4,
+  serviceImage2,
   discordBlack,
   facebook,
   instagram,
