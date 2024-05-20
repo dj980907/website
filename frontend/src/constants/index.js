@@ -51,21 +51,16 @@ export const navigation = [
   },
   {
     id: "1",
-    title: "Pricing",
-    url: "#pricing",
-  },
-  {
-    id: "2",
     title: "About Us",
     url: "/about",
   },
   {
-    id: "3",
+    id: "2",
     title: "Roadmap",
     url: "#roadmap",
   },
   {
-    id: "4",
+    id: "3",
     title: "Contact Us",
     url: "#contactUs",
   },

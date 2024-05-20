@@ -3,6 +3,7 @@ import { collabApps, collabContent, collabText } from "../constants";
 import Button from "./Button";
 import Section from "./Section";
 import { LeftCurve, RightCurve } from "./design/Collaboration";
+import { BottomLine } from "./design/Hero";
 
 const Collaboration = () => {
   return (
@@ -10,7 +11,7 @@ const Collaboration = () => {
       <div className="container lg:flex">
         <div className="max-w-[25rem]">
           <h2 className="h2 mb-4 md:mb-8">
-            AI Chat App for seamless collaboration
+            Tech-Enabled Marketing Firm for Seamless Marketing
           </h2>
 
           <ul className="max-w-[22rem] mb-10 md:mb-14">
@@ -27,7 +28,7 @@ const Collaboration = () => {
             ))}
           </ul>
 
-          <Button>Try it now</Button>
+          <Button href="#pricing">Start now</Button>
         </div>
 
         <div className="lg:ml-auto xl:w-[38rem] mt-4">
@@ -79,6 +80,7 @@ const Collaboration = () => {
           </div>
         </div>
       </div>
+      <BottomLine />
     </Section>
   );
 };
