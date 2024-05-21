@@ -31,14 +31,14 @@ import heroBackground from "./hero/hero-background.jpg";
 
 import curve1 from "./collaboration/curve-1.svg";
 import curve2 from "./collaboration/curve-2.svg";
-import discord from "./collaboration/discord.png";
-import figma from "./collaboration/figma.png";
-import framer from "./collaboration/framer.png";
-import notion from "./collaboration/notion.png";
-import photoshop from "./collaboration/photoshop.png";
-import protopie from "./collaboration/protopie.png";
-import raindrop from "./collaboration/raindrop.png";
-import slack from "./collaboration/slack.png";
+import collab from "./collaboration/collab.png";
+import ai from "./collaboration/ai.png";
+import seo from "./collaboration/seo.png";
+import socialMedia from "./collaboration/social-media.png";
+import thoughtLeadership from "./collaboration/thought-leadership.png";
+import newsletter from "./collaboration/newsletter.png";
+import websiteDevelopment from "./collaboration/website-development.png";
+import leadGeneration from "./collaboration/lead-generation.png";
 
 import benefit1 from "./benefits/benefit-1.png";
 import benefit2 from "./benefits/benefit-2.png";
@@ -114,14 +114,14 @@ export {
   heroBackground,
   curve1,
   curve2,
-  discord,
-  figma,
-  framer,
-  notion,
-  photoshop,
-  protopie,
-  raindrop,
-  slack,
+  collab,
+  ai,
+  seo,
+  socialMedia,
+  thoughtLeadership,
+  newsletter,
+  websiteDevelopment,
+  leadGeneration,
   benefit1,
   benefit2,
   benefit3,

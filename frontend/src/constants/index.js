@@ -6,12 +6,9 @@ import {
   serviceImage2,
   chromecast,
   disc02,
-  discord,
   discordBlack,
   facebook,
-  figma,
   file02,
-  framer,
   homeSmile,
   instagram,
   notification2,
@@ -20,11 +17,7 @@ import {
   notification5,
   notification6,
   notification7,
-  notion,
-  photoshop,
   plusSquare,
-  protopie,
-  raindrop,
   recording01,
   recording03,
   roadmap1,
@@ -32,7 +25,6 @@ import {
   roadmap3,
   roadmap4,
   searchMd,
-  slack,
   sliders04,
   telegram,
   twitter,
@@ -41,6 +33,14 @@ import {
   globaledgelogo,
   googlelogo,
   accenturelogo,
+  collab,
+  ai,
+  seo,
+  socialMedia,
+  thoughtLeadership,
+  newsletter,
+  websiteDevelopment,
+  leadGeneration,
 } from "../assets";
 
 export const navigation = [
@@ -149,78 +149,78 @@ export const roadmap = [
 ];
 
 export const collabText =
-  "With smart automation and top-notch security, it's the perfect solution for teams looking to work smarter.";
+  "With smart automation and top-notch technology, it's the perfect solution for teams looking to market smarter.";
 
 export const collabContent = [
   {
     id: "0",
-    title: "Seamless Integration",
+    title: "Seamless Automation",
     text: collabText,
   },
   {
     id: "1",
-    title: "Smart Automation",
+    title: "Top-notch Artificial Intelligence",
   },
   {
     id: "2",
-    title: "Top-notch Security",
+    title: "In House Experts",
   },
 ];
 
 export const collabApps = [
   {
     id: "0",
-    title: "Figma",
-    icon: figma,
+    title: "Collaboration",
+    icon: collab,
     width: 26,
     height: 36,
   },
   {
     id: "1",
-    title: "Notion",
-    icon: notion,
+    title: "Artificial Intelligence",
+    icon: ai,
     width: 34,
     height: 36,
   },
   {
     id: "2",
-    title: "Discord",
-    icon: discord,
+    title: "Search Engine Optimization",
+    icon: seo,
     width: 36,
     height: 28,
   },
   {
     id: "3",
-    title: "Slack",
-    icon: slack,
+    title: "Social Media",
+    icon: socialMedia,
     width: 34,
     height: 35,
   },
   {
     id: "4",
-    title: "Photoshop",
-    icon: photoshop,
+    title: "Thought Leadership",
+    icon: thoughtLeadership,
     width: 34,
     height: 34,
   },
   {
     id: "5",
-    title: "Protopie",
-    icon: protopie,
+    title: "Newsletter",
+    icon: newsletter,
     width: 34,
     height: 34,
   },
   {
     id: "6",
-    title: "Framer",
-    icon: framer,
+    title: "Website Development",
+    icon: websiteDevelopment,
     width: 26,
     height: 34,
   },
   {
     id: "7",
-    title: "Raindrop",
-    icon: raindrop,
+    title: "Lead Generation",
+    icon: leadGeneration,
     width: 38,
     height: 32,
   },
